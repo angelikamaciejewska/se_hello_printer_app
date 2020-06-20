@@ -89,4 +89,5 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   1. statusCake
   <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=EAQYJK55cE&Days=1&Design=2" /></a>
 
-  2. 
+  2. TravisCI
+  [![Build Status](https://travis-ci.org/angelikamaciejewska/se_hello_printer_app.svg?branch=master)](https://travis-ci.org/angelikamaciejewska/se_hello_printer_app)
