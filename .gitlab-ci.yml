@@ -8,6 +8,7 @@ test:
   script:
   - make deps
   - PYTHONPATH=. py.test  --verbose -s
+
 docker:
   image: docker:stable
   services:
