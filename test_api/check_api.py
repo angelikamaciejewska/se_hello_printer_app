@@ -17,12 +17,12 @@ def main():
     print(r.json())
     checkOutput(r.json())
 
-    def checkOutput(rj):
-        actual = jmespath.search('imie', rj)
-        expected = "Stefan"
-        if actual != expected:
-        print("FAILED: We expected: " + expected + " but was " + actual)
-        exit(1)
+def checkOutput(rj):
+    actual = jmespath.search('imie', rj)
+    expected = "Stefan"
+    if actual != expected:
+       print("FAILED: We expected: " + expected + " but was " + actual)
+       exit(1)
 
 if __name__ == "__main__":
     """
